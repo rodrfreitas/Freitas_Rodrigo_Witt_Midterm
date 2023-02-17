@@ -345,7 +345,6 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 #social-media-icons {
     display: flex;
-    align-items:top;
     justify-content: center;
 
 }

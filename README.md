@@ -1,6 +1,6 @@
-# MIDTERM ORBITZ REBRAND - MMED-1056
+# MIDTERM ORBITZ REBRAND 1920x1080 FULL HD - MMED-1056
 
-For our midterm project, we will be working on a rebranding project for Orbitz, utilizing HTML and CSS to redesign their website, including both desktop and mobile pages.
+For our midterm project, we will be working on a rebranding project for Orbitz, utilizing HTML and CSS to redesign their website, including both desktop and mobile pages. The design was made for Full HD (1920x1080) screens with no zooming.
 
 ## Installation
 
