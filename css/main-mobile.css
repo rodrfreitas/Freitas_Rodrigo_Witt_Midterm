@@ -127,7 +127,7 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     font-size: 22px;
     color: #fff;
     text-align: center;
-    line-height: 42x;
+    line-height: 32px;
     /* padding-left: 450px;
     padding-right: 450px; */
 }
@@ -174,7 +174,7 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     font-size: 22px;
     color: #fff;
     text-align: center;
-    line-height: 42x;
+    line-height: 32px;
 }
 
 #orbitz-flavors {
@@ -308,16 +308,14 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     font-size: 22px;
     color: #fff;
     text-align: center;
-    line-height: 42x;
+    line-height: 32px;
     
 }
 
 #social-media-icons {
     display: flex;
     grid-column: 1/-1;
-    align-items:top;
     justify-content: center;
-
 }
 
 #social-media-icons img {
