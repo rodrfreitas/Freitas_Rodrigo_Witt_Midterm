@@ -52,14 +52,14 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 #header-logo{
     height: 100px;
     width: 270px;
-    grid-column: 4/5;
+    grid-column: 2/3;
     margin-top: 18px;
 }
 
 #header-nav{
     height: 70px;
-    width: 700px;
-    grid-column: 5/-1;
+    /* width: 700px; */
+    grid-column: 3/-1;
     margin-top: 30px;
 }
 
@@ -72,12 +72,18 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 .menu li {
     display: inline-block;
-    margin-right: 90px;
+    margin-right: 60px;
 }
 
 .menu li:last-child {
     margin-right: 0;
+    margin-left: 720px;
+    width: 150px;
+    text-align: center;
+    border: solid 2px #df551e;
+    border-radius: 30px;
 }
+
 
 .menu a {
     font-size: 30px;
@@ -89,8 +95,13 @@ the grid using CSS. It is a class becasue we will use multiple grids */
 
 .menu a:hover {
     background-color: #df551e;
+    border-radius: 30px;
     color: #fff;
 }
+
+
+
+
 
 /* 4. --- Main Hero --- */
 
@@ -381,6 +392,74 @@ the grid using CSS. It is a class becasue we will use multiple grids */
     cursor: pointer;
     margin-bottom: 30px;
 }
+
+/* Form Stuff - Start */
+#form-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #f1f1f1;
+    padding: 50px;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+}
+
+.form {
+    flex: 1;
+    margin-left: 50px;
+    font-family: 'Lato',Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: #7b27c8;
+}
+
+#form-section h2 {
+    font-family: 'Mulish',Arial, Helvetica, sans-serif;
+    color: rgb(230, 81, 12);
+    font-size: 30px;
+    margin-left: 130px;
+    margin-right: 40px;
+    line-height: 60px;
+    margin-bottom: 20px;
+}
+
+input[type=text], input[type=email], textarea {
+    display: block;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    width: 82%;
+    padding: 10px;
+    border: solid 1px #df551e;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input:hover {
+    border: solid 1px #7b27c8;
+}
+
+textarea:hover {
+    border: solid 1px #7b27c8;
+}
+
+textarea {
+    height: 150px;
+}
+
+button {
+    background-color: #7b27c8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+/* Form Stuff - END */
 
 #footer {
     display: flex;
