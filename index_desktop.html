@@ -2,20 +2,102 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <!-- in mobile set initial zoom level of page to 100%, set site size to equal device width not a larger canvas that is shrunk down-->
     <meta name="viewport" content="initial-scale=1.0, width=device-width">
-    <title>MMED-1056 Folder Setup Template</title>
-    <!-- we must link to the CSS file to make our HTML page aware of it -->
-    <!-- Link to reset or normalize before main.css
-    only choose one -->
-    <link href="css/reset.css" rel="stylesheet">
+    <title>Orbitz - Explore a New Universe of Flavor with Every Sip</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&family=Mulish:wght@400;700;900&display=swap" rel="stylesheet">
     <link href="css/normalize.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
 </head>
 <body>
-    <!-- Content will go here -->
+    <h1 class="hidden">Orbitz Homepage</h1>
+    <section id="hero">
+        <h2 class="hidden">Main hero</h2>
+        <div id="hero-video">
+            <!-- hero video here -->
+        </div>
+        <div id="hero-logo">
+            <img src="images/logo_white.svg" alt="Orbitz Logo">
+        </div>
+    </section>
+    <h1 class="hidden">Orbitz - Explore a New Universe of Flavor with Every Sip</h1>
+    <div class="container">
+        <header id="main-header" class="grid">
+            <div id="header-logo">
+                <img src="images/logo.svg" alt="Orbitz Logo">
+            </div>
+            <nav id="header-nav">
+                <h2 class="hidden">Main Navigation</h2>
+                <ul class="menu">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Store</a></li>
+                </ul>
+            </nav>
+        </header>
 
-    <!-- Link to JS fie at bottom, just before closing body tag -->
+        <main>
+            <section id="section-separator">
+                <h2 class="hidden">Section Separator</h2>
+                <h2>Indulge in the tantalizing taste and unique texture of Orbitz - a soft drink experience like no other</h2>
+            </section>
+            <section id="product-overview-1" class="grid">
+                <div id="prod-left-text" class="grid">
+                    <h2>Escape to a new world with every sip of Orbitz</h2>
+                </div>
+                <div id="orbitz-bottle-orange" class="grid">
+                    <img src="images/orbitz_bottles.png" alt="Orbitz Flavors">
+                </div>
+            </section>
+            <section id="section-separator-2">
+                <h2 class="hidden">Section Separator</h2>
+                <h2>Expect a burst of bold and exciting flavors in every bottle of Orbitz - the ultimate thirst-quenching experience</h2>
+            </section>
+            <section id="orbitz-flavors" class="grid">
+                <h2>Take your taste buds on a journey with Orbitz - available in three delicious and distinct flavor options</h2>
+                <div id="orbitz-flavor-1">
+                    <h3>Orbitz - Kiwi</h3>
+                    <img src="images/orbitz-kiwi.png" alt="Orbitz Kiwi">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officia rerum placeat! Impedit autem, ratione eveniet minima illo.
+                    </p>
+                </div>
+                <div id="orbitz-flavor-2">
+                    <h3>Orbitz - Orange</h3>
+                    <img src="images/orbitz-orange.png" alt="Orbit Orange">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officia rerum placeat! Impedit autem, ratione eveniet minima illo.
+                    </p>
+                </div>
+                <div id="orbitz-flavor-3">
+                    <h3>Orbitz - Strawberry</h3>
+                    <img src="images/orbitz-strawberry.png" alt="Orbitz Strawberry">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus officia rerum placeat! Impedit autem, ratione eveniet minima illo.
+                    </p>
+                </div>
+            </section>
+            <section id="social-wall">
+                <h2>Ready to join the Orbitz orbit and stay in the loop? Follow us on social media!</h2>
+                <div id="social-media-icons">
+                    <img src="/images/instagram.svg" alt="Instagram">
+                    <img src="/images/facebook.svg" alt="Facebook">
+                    <img src="/images/twitter.svg" alt="Twitter">
+                    <img src="/images/youtube.svg" alt="YouTube">
+                </div>
+            </section>
+            <section id="cta-section">
+                <h2>Experience the out-of-this-world taste of Orbitz - buy now and quench your thirst in style!</h2>
+                <button id="cta-button">I want Orbitz</button>
+            </section>
+        </main>
+        <footer id="footer">
+            <div><p>© Orbitz. Orbitz Inc. Headquarters are in London, Ontario, Canada</p></div>
+            <div><img src="/images/logo.svg" alt="Orbitz Logo"></div>
+        </footer>
+    </div>
     <script src="js/main.js"></script>
 </body>
 </html>
